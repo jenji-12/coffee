@@ -1,0 +1,41 @@
+body { 
+    font-family: 'Sarabun', sans-serif; 
+    background-color: #fef6ee; 
+    color: #5a3d2b; 
+    margin: 0; padding: 20px; 
+}
+.nav-link { color: #5a3d2b !important; font-weight: bold; }
+
+/* Calendar */
+.calendar { 
+    width: 600px; /* ปรับให้กว้างขึ้น */
+    max-width: 95%; 
+    margin: auto; 
+    background: #fff; 
+    border: 2px solid #a97455; 
+    border-radius: 14px; 
+    padding: 20px; 
+}
+.header { text-align: center; font-size: 24px; font-weight: bold; margin-bottom: 15px; color: #5a3d2b; }
+.nav { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: bold; color:#5a3d2b; }
+.days { display: grid; grid-template-columns: repeat(7,1fr); gap: 5px; }
+.day-name, .day { text-align:center; padding:12px; border-radius:10px; font-weight:500; }
+.day-name { background:#f3e5d8; color:#5a3d2b; }
+.day { background:#fdf0e0; cursor:pointer; transition:0.2s; }
+.day:hover { background:#6d4c41; color:white; }
+.today { background:#4e342e; color:white; font-weight:bold; }
+.active-day { background:#8d6e63 !important; color:white; font-weight:bold; }
+
+/* Detail */
+#detail { 
+    margin:20px auto; 
+    max-width:600px; 
+    background:#fff; 
+    padding:15px; 
+    border-radius:12px; 
+    border:2px solid #a97455;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+a { text-decoration:none; color:#5a3d2b; font-weight:bold; }
+</style>
