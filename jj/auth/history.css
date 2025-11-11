@@ -1,0 +1,36 @@
+body {
+    background-color: #fef6ee;
+    font-family: 'Sarabun', sans-serif;
+    color: #5a3d2b;
+}
+.nav-link { font-weight: bold; color: #5a3d2b !important; }
+.dashboard-title { font-weight: 700; color: #4b2e1d; }
+
+.card-sale {
+    border: 2px solid #a97455;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    margin-bottom: 20px;
+    overflow: hidden; /* ทำให้ child element ถูกโค้งตามการ์ด */
+}
+
+.card-sale .card-header {
+    background-color: #f3e5d8;
+    font-weight: bold;
+    color: #5a3d2b;
+    border-bottom: 1px solid #a97455;
+}
+
+.card-sale table {
+    margin-bottom: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.card-sale table th,
+.card-sale table td {
+    border: 1px solid #e2c8b4;
+}
+
+.table-sm td, .table-sm th { padding: 0.35rem; }
+.total-row { font-weight: 700; background-color: #fff8f0; }

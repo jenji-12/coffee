@@ -1,0 +1,61 @@
+body {
+      background-color: #fef6ee;
+      font-family: 'Sarabun', sans-serif;
+    }
+
+    .nav-link {
+      color: #5a3d2b !important;
+      font-weight: bold;
+    }
+
+    .dashboard-title {
+      color: #4b2e1d;
+      font-weight: 700;
+    }
+
+    .btn-coffee, button[type="submit"] {
+      background-color: #5a3d2b;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      width: 100%;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn-coffee:hover, button[type="submit"]:hover {
+      background-color: #3e2819;
+      transform: translateY(-2px);
+    }
+
+    .rounded-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border: 2px solid #a97455; /* ✅ เปลี่ยนเป็นสีน้ำตาลเข้ม */
+  max-width: 500px;
+  margin: 30px auto;
+
+  }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .message {
+      text-align: center;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .message.success { color: green; }
+    .message.error { color: red; }

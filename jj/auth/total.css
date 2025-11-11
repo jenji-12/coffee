@@ -1,0 +1,63 @@
+ body { 
+      background-color: #fef6ee; 
+      font-family: 'Sarabun', sans-serif; 
+      color: #5a3d2b;
+    }
+    .nav-link { 
+      color: #5a3d2b !important; 
+      font-weight: bold; 
+    }
+    .card { 
+  border: 2px solid #5a3d2b;  /* หนาขึ้นจาก 1px → 2px */
+  border-radius: 14px; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06); 
+  background-color: #fff;
+  transition: none;
+}
+    .card:hover { 
+      transform: none;   /* ไม่ขยาย */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06); /* เงาเท่าเดิม */
+    }
+    .btn-coffee { 
+      background-color: #6d4c41; 
+      color: white; 
+      border-radius: 8px; 
+      font-weight: bold; 
+    }
+    .btn-coffee:hover { 
+      background-color: #4e342e; 
+    }
+    h1, h3, h4, h5 { 
+      color: #5a3d2b; 
+      font-weight: bold;
+    }
+    label, p, span { 
+      color: #7a5541; 
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th {
+      background-color: #f3e5d8;
+      color: #5a3d2b;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+    }
+    td {
+  padding: 10px;
+  border-top: 2px solid #5a3d2b; /* หนาขึ้นจาก 1px → 2px */
+  text-align: center;
+  color: #5a3d2b;
+  }
+    .table-wrapper {
+      max-height: 260px;
+      overflow-y: auto;
+      margin-top: 15px;
+    }
+    #profitResult {
+      font-size: 1.4rem;
+      padding: 6px 12px;
+      border-radius: 8px;
+    }
